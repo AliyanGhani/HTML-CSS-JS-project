@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmics Universe</title>
+  <link rel="stylesheet" href="Pages/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+  <header class="container-fluid" id="body-div">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center justify-content-center p-0 m-0" style="width: 60px;" href="index.html"><img src="IMAGE/logo.png" alt="" class="img-fluid rounded-circle p-0 m-0" style="width: 100%;"></a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="Side-bar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cosmic Universe</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-lg-0 align-items-center justify-content-center">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="Pages/about.html">About Us</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="Pages/Education.html">Educational Videos</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="Pages/Books.html">Related Books</a>
+              </li>
+              <li class="dropdown mx-2">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                  Sections
+                </a>
+                <ul class="dropdown-menu" id="dropdown-menu-main">
+                  <li>
+                    <a class="dropdown-item text-white" href="#bigbang-theory">Big Bang Theory</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#evolution-earth">Evolution of Earth</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#planets">Planets</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#constellation">Constellations</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#comets">Comets</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#observatories">Observatories</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#latest">Latest Developments</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-center align-items-center" id="drp-down" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-success me-2" type="submit">
+                Search
+              </button>
+            </form>
+            <div class="modal-button">
+            <button type="button" class="btn btn-primary mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Sign In
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text" style="color: white;">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="counter">
+              <img
+                src="https://hitwebcounter.com/counter/counter.php?page=15177253&style=0006&nbdigits=5&type=page&initCount=0"
+                title="Counter Widget" alt="" border="0" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container-fluid vh-100 d-flex flex-column justify-content-center" id="body-div">
+    <div class="container d-flex align-items-center justify-content-center" id="slider">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators m-2">
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="7"
+            aria-label="Slide 8"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Earth</h1>
+                <p>
+                  Earth is the third planet from the Sun and the only
+                  astronomical object known to harbor life. This is enabled by
+                  Earth being an ocean world, the only one in the Solar System
+                  sustaining liquid surface water.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/pngwing.com.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Jupiter</h1>
+                <p>
+                  Jupiter is the fifth planet from the Sun and the largest in the Solar System. A gas giant, Jupiter's
+                  mass is more than two and a half times that of all the other planets in the Solar System combined.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/Jupiter.com.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Mars</h1>
+                <p>
+                  Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in
+                  iron(III) oxide dust, giving it the nickname "the Red Planet". Mars is among the brightest objects in
+                  Earth's sky.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/pngimg.com - mars_planet_PNG28.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Venus</h1>
+                <p>
+                  Venus is the second planet from the Sun. It is a terrestrial planet and is the closest in mass and
+                  size to its orbital neighbour Earth.Mostly of carbon dioxide with a thick, global sulfuric acid cloud
+                  cover.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/Venus-PNG-Pic.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Mercury</h1>
+                <p>
+                  Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named
+                  after the ancient Roman god Mercurius. Mercury is classified as a terrestrial planet, with roughly the
+                  same surface gravity as Mars.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/Mercury-PNG-Photos.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Neptune</h1>
+                <p>
+                  Neptune is the eighth and farthest known planet from the Sun. It is the fourth-largest planet in the
+                  Solar System by diameter,It is 17 times the mass of Earth and slightly more massive.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/neptune-png.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Saturn</h1>
+                <p>
+                  Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It
+                  is a gas giant with an average radius of about nine-and-a-half times that of Earth but is over 95
+                  times more massive.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/saturn-png.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container d-flex justify-content-center align-items-center text-white row">
+              <div class="container d-flex flex-column col-sm-12 col-md-9 col-lg-6">
+                <h1>Uranus</h1>
+                <p>
+                  Uranus is the seventh planet from the Sun. It is a gaseous cyan-coloured ice giant. Most of the planet
+                  is made of water, ammonia, and methane in a supercritical phase of matter, which astronomy calls "ice"
+                  or volatiles.
+                  <span><a href="#planets">See More</a></span>
+                </p>
+              </div>
+              <div class="container col-sm-12 col-md-5 col-lg-6">
+                <img loading="lazy" src="IMAGE/Uranus-png.png" alt="" class="container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+    <!-- Big Bang Theory & Evolution of Earth Section -->
+    <section data-aos="fade-right" class="mt-4 mb-4 bigbang-theory-head p-0" id="bigbang-theory">
+      <h1 class="text-center">BIG BANG THEORY</h1>
+      <div class=" row p-2">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <p>The Big Bang Theory is the leading explanation for how the universe began. Simply put, it says the universe
+            as we know it started with an infinitely hot and dense single point that inflated and stretched — first at
+            unimaginable speeds, and then at a more measurable rate — over the next 13.7 billion years to the
+            still-expanding cosmos that we know today.<br><br>Existing technology doesn't yet allow astronomers to
+            literally peer back at the universe's birth, much of what we understand about the Big Bang comes from
+            mathematical formulas and models. Astronomers can, however, see the "echo" of the expansion through a
+            phenomenon known as the cosmic microwave background.<br><br>While the majority of the astronomical community
+            accepts the theory, there are some theorists who have alternative explanations besides the Big Bang such as
+            eternal inflation or an oscillating universe.<br><br>This all happened within just the first second after
+            the universe began, when the temperature of everything was still insanely hot, at about 10 billion degrees
+            Fahrenheit (5.5 billion Celsius), according to NASA. The cosmos now contained a vast array of fundamental
+            particles such as neutrons, electrons and protons — the raw materials that would become the building blocks
+            for everything that exists today</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img loading="lazy" src="IMAGE/big bang slide1.jpg" class="d-block w-100 h-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img loading="lazy" src="IMAGE/big bang slide2.jpg" class="d-block w-100 h-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img loading="lazy" src="IMAGE/big bang slide3.jpeg" class="d-block w-100 h-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-left" class="evolution-earth mt-4" id="evolution-earth">
+      <h1 class="text-center">EVOLUTION OF EARTH</h1>
+      <div  class="row">
+
+        <div  class="col-sm-12 col-md-12 col-lg-4">
+          <h3>Formation of Earth</h3>
+          <p>We live on Earth’s hard, rocky surface, breathe the air that surrounds the planet, drink the water that
+            falls from the sky, and eat the food that grows in the soil. But Earth did not always exist within this
+            expansive universe, and it was not always a hospitable haven for life. <br><br>Billions of years ago, Earth,
+            along with the rest of our solar system, was entirely unrecognizable, existing only as an enormous cloud of
+            dust and gas. Eventually, a mysterious occurrence—one that even the world’s foremost scientists have yet
+            been unable to determine—created a disturbance in that dust cloud, setting forth a string of events that
+            would lead to the formation of life as we know it. One common belief among scientists is that a distant star
+            collapsed, creating a supernova explosion, which disrupted the dust cloud and caused it to pull together.
+            This formed a spinning disc of gas and dust, known as a solar nebula.</p>
+        </div>
+        <div  class="col-sm-12 col-md-12 col-lg-4">
+          <h3>Planet Formation</h3>
+          <p>The formation of the sun consumed more than 99 percent of the matter in the nebula. The remaining material
+            began to coalesce into various masses. The cloud was still spinning, and clumps of matter continued to
+            collide with others. Eventually, some of those clusters of matter grew large enough to maintain their own
+            gravitational pull, which shaped them into the planets and dwarf planets that make up our solar system
+            today. <br><br>Earth is one of the four inner, terrestrial planets in our solar system. Just like the other
+            inner planets—Mercury, Venus, and Mars—it is relatively small and rocky. Early in the history of the solar
+            system, rocky material was the only substance that could exist so close to the Sun and withstand its heat.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <h3>In Earth's Beginning</h3>
+          <p>At its beginning, Earth was unrecognizable from its modern form. At first, it was extremely hot, to the
+            point that the planet likely consisted almost entirely of molten magma. Over the course of a few hundred
+            million years, the planet began to cool and oceans of liquid water formed. Heavy elements began sinking past
+            the oceans and magma toward the center of the planet. As this occurred, Earth became differentiated into
+            layers, with the outermost layer being a solid covering of relatively lighter material while the denser,
+            molten material sunk to the center.<br><br>Scientists believe that Earth, like the other inner planets, came
+            to its current state in three different stages.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Planets Section -->
+    <section class="planets mt-4" id="planets">
+      <div class="row mx-2">
+        <h1 class="h1 text-center">PLANETS</h1>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy"
+              src="https://c02.purpledshub.com/uploads/sites/48/2019/10/Mercury-realistic-imgae-61c867c-e1571410840102.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MERCURY</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 4,880 Kilometers</p>
+              <p class="card-text">Atmosphere : Thin</p>
+              <p class="card-text">Distance From The Sun : 57.9 Million Kilometers</p>
+              <p class="card-text">Distance From The Earth : 77 Million Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy"
+              src="https://c02.purpledshub.com/uploads/sites/48/2019/10/501365main_pia00104-full_full-aa052d9-1-e1571412898636.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">VENUS</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 12,104 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 108 Million Kilometers</p>
+              <p class="card-text">Distance From The Earth : 41 Million Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://www.universetoday.com/wp-content/uploads/2009/09/bluemarble-e1452178366615.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">EARTH</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 12,742 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 149.6 Million Kilometers</p>
+              <p class="card-text">Distance From The Earth : 0 Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://snworksceo.imgix.net/njs/7c16466d-9bda-45d5-8ded-a56bc0ddbfd1.sized-1000x1000.jpg?w=1000"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MARS</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 6,779 Kilometers</p>
+              <p class="card-text">Atmosphere : Thin</p>
+              <p class="card-text">Distance From The Sun : 227.9 Million Kilometers</p>
+              <p class="card-text">Distance From The Earth : 225 Million Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3lJrPDK0bMHzfUAVfzfBUD5Egrhr7A0Livw&s"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JUPITER</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 139,820 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 778 Million Kilometers</p>
+              <p class="card-text">Distance From The Earth : 628 Million Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXVSXKH01-iTBMTbqZnVIjvMSh5yfGvCnZww&s"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SATURN</h5>
+              <p class="card-text">Discovery Date : 17th Century</p>
+              <p class="card-text">Size : 116,460 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 1.43 billion Kilometers</p>
+              <p class="card-text">Distance From The Earth : 1.2 billion Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkULUdqCwwxOOXVUwJgkrR3vX82iNirGlBqw&s"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">URANUS</h5>
+              <p class="card-text">Discovery Date : March 13 , 1781</p>
+              <p class="card-text">Size : 50,724 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 2.87 billion Kilometers</p>
+              <p class="card-text">Distance From The Earth : 2.6 billion Kilometers</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card mb-3">
+            <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDgiAet5M95Ctk58ONmNYO7uDx_t2KzrqU_A&s"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NEPTUNE</h5>
+              <p class="card-text">Discovery Date : September 23 , 1846</p>
+              <p class="card-text">Size : 49,244 Kilometers</p>
+              <p class="card-text">Atmosphere : Thick</p>
+              <p class="card-text">Distance From The Sun : 4.5 billion Kilometers</p>
+              <p class="card-text">Distance From The Earth : 4.3 billion Kilometers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-down-right" class="container-fluid constellation mt-4" id="constellation">
+      <h1 class="text-center">CONSTELLATIONS</h1>
+      <div class="card-group">
+        <div  class="card">
+          <div class="card-body">
+            <h5 class="card-title h3">Constellations Pattern</h5>
+            <p class="card-text">A constellation is a recognizable pattern of stars that forms a shape or figure
+              in the sky. The stars within a constellation are not necessarily physically related; they appear
+              to be close to each other from our perspective but can be at vastly different distances from
+              Earth.The concept of constellations is based on the celestial sphere, an imaginary sphere
+              surrounding Earth to which all celestial objects are projected. The constellations are mapped
+              onto this sphere.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="IMAGE/constellations.jpg"
+            class="card-img-top img-fluid rounded-start h-100" alt="...">
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title h3">Their Formation</h5>
+            <p class="card-text">The formation of constellations is a rich interplay of human observation,
+              mythology, and scientific standardization. Constellations originated from ancient efforts to
+              make sense of the night sky and have evolved into a critical system for mapping the heavens and
+              understanding our universe. They continue to play a significant role in both cultural contexts
+              and scientific endeavors.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy" src="https://www.star-registration.com/cdn/shop/articles/51_Orion_1200x1200.jpg?v=1681715314"
+                  class="img-fluid rounded-start h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Orion</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Visible in the Northern Hemisphere during winter.
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      Betelgeuse (red supergiant), Rigel (blue supergiant), Alnilam, Mintaka, Alnitak (Orion’s
+                      Belt).
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Known for the three stars in a row that form Orion's Belt. This constellation is associated
+                      with the
+                      mythological hunter Orion.
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy"
+                  src="https://www.star-registration.co.uk/cdn/shop/articles/24_Grosser-Baer_1200x1200.jpg?v=1681115996"
+                  class="img-fluid rounded-start h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Ursa Major</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Northern Hemisphere.
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      The seven brightest stars form the Big Dipper asterism, which includes Dubhe, Merak, Phecda,
+                      Megrez, Alioth, Mizar, and Alkaid.
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Ursa Major is one of the most recognizable constellations and includes the Big Dipper, which
+                      is used to find the North Star (Polaris).
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjXKUdH9Y-fAiR0hHOPFKtc8Of9J1AYy8SQ&s"
+                  class="img-fluid rounded-start h-100 w-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Scorpius</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Southern Hemisphere, best seen in summer.
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      Antares (a red supergiant, often called the heart of the scorpion), Shaula, and Lesath.
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Scorpius is shaped like a scorpion, and its bright stars form a curve resembling a
+                      scorpion's tail.
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy"
+                  src="https://www.star-registration.com/cdn/shop/articles/32_Kassiopeia_ENGLISCH_1200x1200.jpg?v=1681377965"
+                  class="img-fluid rounded-start h-100 " alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Cassiopeia</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Northern Hemisphere
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      Schedar, Caph, and Ruchbah.
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Cassiopeia is easily recognizable by its distinctive W shape, representing the mythological
+                      queen Cassiopeia.
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy" src="https://www.star-registration.com/cdn/shop/articles/43_Loewe_1200x1200.jpg?v=1681589943"
+                  class="img-fluid rounded-start h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Leo</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Northern Hemisphere, visible in spring.
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      Regulus (the heart of the lion), Denebola, and Algieba.
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Leo is often depicted as a lion and includes a distinctive pattern of stars that resemble a
+                      lion's mane.
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" class="col-sm-12 col-md-12 col-lg-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41-DUY_XwhVrNCwbr4B9V4OiMmcm_dW9KMg&s"
+                  class="img-fluid rounded-start h-100 w-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Taurus</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>
+                      <strong>
+                        Position:
+                      </strong>
+                      Northern Hemisphere, visible in winter.
+                    </li>
+                    <li>
+                      <strong>
+                        Notable Stars:
+                      </strong>
+                      Aldebaran (the eye of the bull), and the Pleiades star cluster.
+                    </li>
+                    <li>
+                      <strong>
+                        Features:
+                      </strong>
+                      Taurus is associated with a bull and includes the V-shaped cluster of stars known as the
+                      Hyades.
+                    </li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-right" class="comets container-fluid mt-4" id="comets">
+      <h1 class="h1 text-center text-white">
+        COMETS
+      </h1>
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 col-lg-6">
+              <img loading="lazy" src="https://cdn.mos.cms.futurecdn.net/KLXJHZX37JfEjgsppM2qmG-1200-80.jpg"
+                class="img-fluid rounded-start h-100" alt="...">
+            </div>
+            <div class="col-md-8 col-lg-6 d-flex align-items-center">
+              <div class="card-body ">
+                <h5 class="card-title">Information On Comets</h5>
+                <p class="card-text">Comets are icy, rocky bodies from the solar system’s outer regions. They have a solid
+                  nucleus, a glowing coma (cloud of gas and dust), and a tail that forms when they approach the Sun. Comets
+                  follow elliptical orbits and can be seen from Earth when they are close to the Sun. They mostly come from
+                  the Kuiper Belt and the Oort Cloud.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="h3 text-center text-white my-4">Notable Examples</h3>
+      <div class="card-group">
+        <div data-aos="flip-left" class="card text-bg-dark">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJuklUUW5A2AwWiecKy0IMiZg6cFu9dM-MIg&s"
+            class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Halley's Comet</h5>
+            <p class="card-text">Visible from Earth every 76 years; last seen in 1986.</p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card text-bg-dark">
+          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-X4FMVAgimxKn5Dr6N-DZQkxVYBiSqDQdA&s"
+            class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Hale-Bopp</h5>
+            <p class="card-text">Bright and visible from 1996 to 1997.</p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card text-bg-dark">
+          <img loading="lazy" src="https://media3.s-nbcnews.com/i/msnbc/Components/Photos/040627/060427_comet_vlg_4p.jpg"
+            class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Hyakutake</h5>
+            <p class="card-text">Known as the "Great Comet of 1996."</p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card text-bg-dark">
+          <img loading="lazy"
+            src="https://content.invisioncic.com/g327141/monthly_2020_07/large.1235741250_CometNEOWISE1307202002cropcopysmall.png.792be37dd8714808888f54560e3b67be.png"
+            class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">NEOWISE</h5>
+            <p class="card-text"> Visible in 2020 with a prominent tail.</p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="card text-bg-dark">
+          <img loading="lazy" src="https://rocketstem.b-cdn.net/wp-content/uploads/2020/03/nrao18_comet.jpg" class="card-img"
+            alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Encke</h5>
+            <p class="card-text">Has the shortest orbit, about 3.3 years.</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="h3 text-center text-white my-4">Characteristics</h3>
+      <div data-aos="fade-up-right" class="col-sm-12 col-md-12 col-lg-12">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 col-lg-6">
+              <img loading="lazy" src="https://spaceplace.nasa.gov/comets/en/anatomy-of-a-comet.en.jpg"
+                class="img-fluid rounded-start h-100" alt="...">
+            </div>
+            <div class="col-md-8 col-lg-6 d-flex align-items-center">
+              <div class="card-body ">
+                <h5 class="card-title"><strong>Comets have several key characteristics:</strong></h5>
+                <p class="card-text"><ol>
+                  <li>
+                    <strong>
+                      Nucleus:
+                    </strong>
+                    Solid core made of ice, dust, and rock.
+                  </li>
+                  <li>
+                    <strong>
+                      Coma:
+                    </strong>
+                    Glowing cloud of gas and dust that forms around the nucleus when near the Sun.
+                  </li>
+                  <li>
+                    <strong>
+                      Tail:
+                    </strong>
+                    Trails of gas and dust pushed away from the coma by solar wind; often has two tails (dust and ion).
+                  </li>
+                  <li>
+                    <strong>
+                      Orbit:
+                    </strong>
+                    Highly elliptical paths that can take them far from the Sun and then bring them close.
+                  </li>
+                  <li>
+                    <strong>
+                      Origin:
+                    </strong>
+                    Typically from the Kuiper Belt (short-period comets) or the Oort Cloud (long-period comets).
+                  </li>
+                </ol>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="flip-up" class="latest container mt-4" id="latest">
+        <h1 class="h1 text-center text-white">
+          LATEST DEVELOPMENTS
+        </h1>
+        <div class="developments row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <h3>Exoplanets</h3>
+            <br>
+            <p>
+              <strong>
+                James Webb Space Telescope (JWST) Discoveries:
+              </strong>
+               The JWST has provided new insights into exoplanet atmospheres. Its high-resolution observations have allowed scientists to analyze the atmospheric composition of exoplanets with unprecedented detail. For instance, it has detected the presence of water vapor and potential signs of cloud cover on some exoplanets, which could inform our understanding of their habitability.
+               <br>
+               <br>
+               <strong>
+                Potentially Habitable Exoplanets: 
+               </strong>
+               The discovery of potentially habitable exoplanets in the "habitable zone" of their host stars continues. One notable example is the detection of an Earth-sized exoplanet in the habitable zone of the nearby star Proxima Centauri, which could have conditions suitable for liquid water.
+               <br>
+               <br>
+               <strong>Atmospheric Characteristics: </strong>
+               New research has enhanced our understanding of exoplanet atmospheres, revealing diverse and extreme conditions. For example, some exoplanets have been found with atmospheres rich in metals or highly irradiated environments that challenge previous models of planetary atmospheres.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <h3>
+              Stellar Discoveries
+            </h3>
+            <br>
+            <p>
+              <strong>
+                Neutron Star Mergers: 
+              </strong>
+              The detection of neutron star mergers through gravitational waves has provided valuable information about these incredibly dense objects. These observations have led to a better understanding of the physics of neutron stars and their role in the synthesis of heavy elements like gold and platinum.
+              <br>
+              <br>
+              <strong>
+                Massive Star Evolution:
+              </strong>
+              New observations have improved our knowledge of the life cycles of massive stars. For example, astronomers have observed the formation of massive stars and their subsequent evolution into supernovae with greater detail, refining models of stellar evolution and supernova mechanisms.
+              <br>
+              <br>
+              <strong>
+                Star Formation in Galaxies:
+              </strong>
+              Advancements in observational technology have allowed scientists to peer into distant galaxies and observe star formation processes in real-time. This helps in understanding how galaxies form and evolve over cosmic time scales.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <p>
+              <strong>
+                Stellar Magnetic Fields: 
+              </strong>
+              Recent studies have shed light on the complex magnetic fields of stars. Research into solar-type stars and their magnetic activities provides insights into stellar weather and its impact on planetary systems.
+            </p>
+            <br>
+            <h3>
+              Galactic and Cosmological Context
+            </h3>
+            <br>
+            <p>
+              <strong>
+                Galactic Archeology:
+              </strong>
+              The study of the Milky Way's formation and evolution has advanced significantly. Observations of star clusters and stellar populations are helping to reconstruct the history of our galaxy, including its interactions with other galaxies and the formation of its structure.
+              <br>
+              <br>
+              <strong>
+                Dark Matter and Dark Energy:
+              </strong>
+              While not directly related to individual stars or planets, advancements in understanding dark matter and dark energy continue to impact the broader context of cosmic structures. New experiments and observations aim to unravel the nature of these mysterious components of the universe.
+            </p>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container mb-2 mt-4 main">
+        <div class="container p-4 pb-0">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Cosmic Universe
+                </h6>
+                <p>
+                  The concept of a "cosmic universe" refers to the entirety of space, time, matter, and energy that exists. It encompasses in the cosmos, such as galaxies, clusters of galaxies, and the vast cosmic web that binds them together.
+                </p>
+              </div>
+            
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+          
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 section">
+                <h6 class="text-uppercase mb-4 font-weight-bold">SECTIONS</h6>
+                <p>
+                  <a class="link" href="#bigbang-theory">Big Bang Theory</a>
+                </p>
+                <p>
+                  <a class="link" href="#evolution-earth">Evolution of Earth</a>
+                </p>
+                <p>
+                  <a class="link" href="#planets">Planets</a>
+                </p>
+                <p>
+                  <a class="link" href="#constellation">Constellations</a>
+                </p>
+              </div>
+              <hr class="w-100 clearfix d-md-none" />
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 usefull">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Useful links
+                </h6>
+                <p>
+                  <a class="link" href="Pages/about.html">About Us</a>
+                </p>
+                <p>
+                  <a class="link" href="Pages/Education.html">Educational Videos</a>
+                </p>
+                <p>
+                  <a class="link" href="Pages/Books.html">Books</a>
+                </p>
+              </div>
+              <hr class="w-100 clearfix d-md-none" />
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 contact">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fas fa-home mr-3"></i> Karachi, NK 75850, Pak</p>
+                <p><i class="fas fa-envelope mr-3"></i> aptech@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i><a class="link" href=""> + 92 332 XXX XX</a></p>
+                <p><i class="fas fa-phone mr-3"></i><a class="link" href=""> + 92 332 XXX XX</a></p>
+              </div>
+            </div>
+          <hr class="my-3">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start icon">
+                <div class="p-3">
+                  © 2024 Copyright:
+                  <a class="link"" href="#"
+                     >E-project Team</a
+                    >
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <a href="https://www.facebook.com/"
+                   class="btn btn-outline-primary m-1"
+                   role="button"
+                   ><i class="fab fa-facebook-f"></i
+                  ></a>
+                <a href="https://twitter.com/"
+                   class="btn btn-outline-primary btn-floating m-1"
+                   role="button"
+                   ><i class="fab fa-twitter"></i
+                  ></a>
+                <a href="https://mail.google.com/"
+                   class="btn btn-outline-primary btn-floating m-1"
+                   role="button"
+                   ><i class="fab fa-google"></i
+                  ></a>
+                <a href="https://www.instagram.com/"
+                   class="btn btn-outline-primary btn-floating m-1"
+                   role="button"
+                   ><i class="fab fa-instagram"></i
+                  ></a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <div id="ticker">
+    <div class="container" id="ticker-content">
+        <span id="date-time-location">Loading...</span>
+    </div>
+</div>
+</div>
+
+<script>
+  AOS.init();
+</script>
+<script src="Pages/script.js"></script>
+<script src="Pages/app.js">
+
+</script>
+</body>
+
+</html>

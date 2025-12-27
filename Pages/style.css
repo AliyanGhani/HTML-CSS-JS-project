@@ -1,0 +1,262 @@
+#body-div{
+    background: url('../IMAGE/pexels-francesco-ungaro-998641.jpg') rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:991px){
+    #offcanvasNavbar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    }
+    #dropdown-menu-main{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    border: none;
+    }
+    
+    #drp-down input{
+        background-color: rgba(255, 255, 255, 0.15);
+        background: transparent;
+        color: white;
+    }
+    #drp-down input::placeholder{
+        color: white;
+    }
+    .counter{
+        display: none;
+    }
+    .modal-button{
+        display: none;
+    }
+}
+@media (min-width:992px){
+    #drp-down input{
+        display: none;
+        background-color: rgba(255, 255, 255, 0.15);
+        background: transparent;
+        color: white;
+    }
+    #drp-down button{
+        display: none;
+        background-color: rgba(255, 255, 255, 0.15);
+        background: transparent;
+        color: white;
+    }
+    
+}
+#dropdown-menu-main{
+    backdrop-filter: blur(5px);
+    background: transparent;
+    color: white;
+}
+#dropdown-menu-main a:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgb(62, 165, 235) !important;
+    backdrop-filter: blur(15px);
+}
+.nav-item .nav-link{
+    color: white;
+   position: relative;
+}
+.nav-item .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(62, 165, 235);
+    transition: all .5s;
+}
+.nav-item .nav-link:hover{
+    color: rgb(62, 165, 235);
+    
+}
+.nav-item .nav-link:hover::before{
+    width: 100%;
+}
+.carousel-item .container p a{
+    text-decoration: none;
+    color: rgb(62, 165, 235);
+    font-weight: bold;
+}
+#slider{
+    transition: all 1s ease;
+}
+main{
+    background-image: url("../IMAGE/pexels-francesco-ungaro-998641.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+.bigbang-theory-head .row{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+.bigbang-theory-head .col-sm-12 .carousel-inner{
+    border-radius: 15px;
+}
+.evolution-earth .row{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.evolution-earth h1{
+    color: white;
+    padding: 25px;;
+}
+
+.bigbang-theory-head  h1{
+    color: white;
+    padding: 25px;
+}
+
+main .planets .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+}
+
+.planets h1{
+    padding: 25px;
+    color: white;
+}
+main .constellation .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+}
+main .constellation h1{
+    color: white;
+    padding: 25px;
+}
+main .comets .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+}
+.developments{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+#exampleModalToggle .modal-dialog{
+    background:transparent;
+    color: black;
+}
+#exampleModalToggle2{
+    background:transparent;
+}
+nav .modal-content{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+}
+nav .modal-content input,
+textarea {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+}
+#ticker {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#ticker-content {
+    display: inline-block;
+    padding: 10px;
+    animation: scroll 20s linear infinite;
+}
+
+#ticker-content::after {
+    content: attr(data-content);
+    display: inline-block;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+footer{
+    background-image: url("../IMAGE/pexels-francesco-ungaro-998641.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+footer .main{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+}
+footer .main .row .section .link{
+    text-decoration: none;
+    color: white;
+}
+footer .main .row .section .link:hover{
+    text-decoration: none;
+    color: rgb(62, 165, 235);
+    font-weight: bold;
+}
+footer .main .row .usefull .link{
+    text-decoration: none;
+    color: white;
+}
+footer .main .row .usefull .link:hover{
+    text-decoration: none;
+    color: rgb(62, 165, 235);
+    font-weight: bold;
+}
+footer .main .row .contact .link{
+    text-decoration: none;
+    color: white;
+}
+footer .main .row .contact .link:hover{
+    text-decoration: none;
+    color: rgb(62, 165, 235);
+    font-weight: bold;
+}
+footer .main .row .icon .link{
+    text-decoration: none;
+    color: white;
+}
+footer .main .row .icon .link:hover{
+    text-decoration: none;
+    color: rgb(62, 165, 235);
+    font-weight: bold;
+}
